@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <h2>Carrito de Compras</h2>
+    <label for="producto">Selecciona un producto:</label>
+    <select id="producto">
+        <option value="30">Producto 1 - $30</option>
+        <option value="20">Producto 2 - $20</option>
+        <option value="50">Producto 3 - $50</option>
+    </select>
+    <button onclick="agregarAlCarrito()">Añadir al Carrito</button>
+
+    <h3>Total a pagar: $<span id="total">0</span></h3>
+
+    <!-- Enlazas tu archivo JS aquí -->
+    <script src="carrito.js"></script>
+</body>
+</html>
